@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
+    "></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+</head>
+<style>
+    .dropdown:hover .dropdown-menu{
+        display:block;
+    }
+    .dropdown:hover > .nav-link {
+      text-decoration: underline;
+    }
+    .dropdown-menu .dropdown-item:hover {
+      text-decoration: underline;
+    }
+    .navbar-nav .nav-link:hover {
+        text-decoration: underline;
+    }
+    /* coursel */
+    /* image anition */
+    .moni:hover{
+       transform:scale(1.2)
+   }
+    
+  
+    
+  
+    .carousel-item img {
+      width: 100%; /* Ensure image covers width */
+      height: 550px; /* Ensure image covers height */
+      object-fit: cover; /* Keep aspect ratio without distortion */
+    }
+    .anitha:hover{
+       text-decoration:underline;
+    }
+    </style>
+    <body>
+        <!-- header part -->
+          <header style="background-color: pink;color:black" class="fixed-top">
+      
+              <nav class="navbar navbar-expand-lg ">
+                  <div class="container-fluid">
+                    <h3 class="   display-6 p-2" >Bloom'n Bazaar </h3>
+                    <button class="navbar-toggler" type="button"  data-bs-toggle="collapse"  data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse  justify-content-center" id="navbarNavAltMarkup">
+                      <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link  m-1" aria-current="page" href="home.html">HOME</a>
+                          </li>
+      
+                          <!-- dropdown 1 -->
+                          <li class="nav-item dropdown m-1">
+                              <a class="nav-link dropdown-toggle active" id="navbarDropdown" href="shoppingbycollections.html" role="button"  aria-expanded="false">
+                                  SHOP BY COLLECTIONS
+                                </a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#section1">BUNCHED BOUQUET</a></li>
+                                  <li><a class="dropdown-item" href="#section2">BASKET BOUQUET</a></li>
+                                  <li><a class="dropdown-item" href="#section3">SINGLE-STEM BOUQUET</a></li>
+                                  <li><a class="dropdown-item" href="#section4">SHOWER BOUQUET</a></li>
+                                  <li><a class="dropdown-item" href="#">CHOCOLATE BOUQUET</a></li>
+                                </ul>
+                           
+                          </li>
+      
+                          <!-- dropdown2 -->
+                          <li class="nav-item dropdown m-1">
+                              <a class="nav-link dropdown-toggle" id="navbarDropdown" href="shoppingbyoccassion.html" role="button"  aria-expanded="false">
+                                  SHOP BY OCCASIONS
+                                </a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">BIRTHDAY</a></li>
+                                  <li><a class="dropdown-item" href="#">ANNIVERSARIES</a></li>
+                                  <li><a class="dropdown-item" href="#">VALENTINE'S DAY</a></li>
+                                  <li><a class="dropdown-item" href="#">WEDDINGS</a></li>
+                                  <li><a class="dropdown-item" href="#">PROPOSALS/ENGAMENTS</a></li>
+                                  <li><a class="dropdown-item" href="#">GRADUATIONS</a></li>
+                                </ul>
+                           
+                          </li>
+      
+      
+      
+                          <li class="nav-item m-1">
+                            <a class="nav-link" href="contact.html" >REACHUS OUT</a>
+                          </li>
+                        </ul>
+                    </div>
+      
+                    <!-- //for icons -->
+                    <div class="collapse navbar-collapse justify-content-sm-end  ml-2" id="mynavbar">
+                      <ul class="navbar-nav " >
+                        <li class="nav-item m-2">
+                          <a href="home.html" class="nav-link "><i class="fa-solid fa-house"></i></a>
+                      </li>
+                          <li class="nav-item m-2">
+                              <a href="contact.html" class="nav-link "><i class="fa-solid fa-user"></i></a>
+                          </li>
+                          <li class="nav-item m-2">
+                              <a href="#" class="nav-link "><i class="fa-solid fa-magnifying-glass"></i></a>
+                          </li>
+                          <li class="nav-item active m-2">
+                              <a href="#" class="nav-link "><i class="fa-solid fa-cart-shopping"></i></a>
+                          </li>
+                      </ul>
+                  </div>
+                </div>
+                </nav>
+        </header>
+
+        <!-- body part -->
+
+        <div id="section1" class="container-fluid pt-5 mt-5 ">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h3 class="anitha  display-6" >BUNCHED BOUQUET</h3>
+            </div>
+          </div>
+            <!-- 1st row -->
+            <div class="row mt-3 ">
+              
+            <div class="col-12 col-md-6 col-lg-3 text-center mb-4">
+              <div class="card border-0 mx-auto" style="width: 18rem;">
+                <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRodBM3zAdOVPYsZeKWp8lLhhNaiX1kliyGiBz2MSZ_7smBIilavVXZ4ksP5shYHSv0sHWzOUh0mXO7VYEG8H8UuKKkrVAKNpH2vVBebU5V" class="card-img-top img-fluid moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                <div class="card-body">
+                  <h6 class="card-title text-center" style="font-family:monospace;">FlowerAura  Bouquet</h6>
+                  <p class="card-text text-center" style="font-family:monospace;"><del >Rs.600</del><span class="text-danger">Rs.399 only</span></p>
+                  <a href="buynow.html" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                </div>
+              </div>
+              </div>
+
+             
+
+                <div class="col-12 col-md-6 col-lg-3 text-center mb-4">
+                  <div class="card border-0 mx-auto" style="width: 18rem;">
+                    <img src="https://www.cityflowers.co.in/cdn/shop/products/o-u7_hicykzzoyf4xcqdw_360x.jpg?v=1616430981" class="card-img-top moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                    <div class="card-body">
+                      <h6 class="card-title text-center" style="font-family:monospace;">SUNSHINE N FLOWERS</h6>
+                      <p class="card-text text-center" style="font-family:monospace;"><del >Rs.1,933</del><span class="text-danger"> Rs.1,560 only</span>  </p>
+                      <a href="buynow.html" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                    </div>
+                  </div>
+                  </div>
+
+                  <div class="col-12 col-md-6 col-lg-3 text-center mb-4">
+                    <div class="card border-0 mx-auto" style="width: 18rem;">
+                      <img src="https://www.cityflowers.co.in/cdn/shop/products/ef1604_ooid9by9bodb5m6t_5efab0b3-8bcd-49d9-80f9-c63eb29eebde_540x.jpg?v=1616426621" class="card-img-top moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                      <div class="card-body">
+                        <h6 class="card-title text-center" style="font-family:monospace;">Marvellous Combination</h6>
+                        <p class="card-text text-center" style="font-family:monospace;">From Rs.700 only</p>
+                        <a href="buynow.html" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                      
+                    </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-6 col-lg-3  mb-4">
+                    <div class="card border-0 mx-auto" style="width: 18rem;">
+                      <img src="https://www.cityflowers.co.in/cdn/shop/products/ef1593_ihrs0i0js9nqk75o_ad70f942-d4fa-48bd-85ed-78d2757bdc6b_360x.jpg?v=1616428456" class="card-img-top img-fluid moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                      <div class="card-body">
+                        <h6 class="card-title text-center" style="font-family:monospace;">Everlasting embrace</h6>
+                        <p class="card-text text-center" style="font-family:monospace;">From Rs.899 </p>
+                        <a href="buynow.html" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                      </div>
+                    </div>
+                    </div>
+
+
+            </div>
+            
+
+            <!-- 2nd row -->
+            <div class="row mt-3">
+              
+              <div class="col-12 col-md-6 col-lg-3  mb-4">
+                <div class="card border-0 mx-auto" style="width: 18rem;">
+                  <img src="https://www.cityflowers.co.in/cdn/shop/products/ef1608_wqupv4w6uzrxnyyq_a465f193-f63e-4150-93ba-dac683459ee1_360x.jpg?v=1616429575" class="card-img-top img-fluid moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                  <div class="card-body">
+                    <h6 class="card-title text-center" style="font-family:monospace;">Pastel Pure Bonanza</h6>
+                    <p class="card-text text-center" style="font-family:monospace;">Rs.1,149 only</p>
+                    <a href="buynow.html" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                  </div>
+                </div>
+                </div>
+  
+               
+  
+                  <div class="col-12 col-md-6 col-lg-3  mb-4">
+                    <div class="card border-0 mx-auto" style="width: 18rem;">
+                      <img src="https://www.cityflowers.co.in/cdn/shop/products/ef1601_bwcuhvqnjj2erzup_b7b7eb05-9cf7-4034-b235-a8d388acb713_360x.jpg?v=1616427631" class="card-img-top moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                      <div class="card-body">
+                        <h6 class="card-title text-center" style="font-family:monospace;">Luxiuriant Hand Tied Bunch</h6>
+                        <p class="card-text text-center" style="font-family:monospace;"><del >Rs.999</del><span class="text-danger"> Rs.899 only</span>  </p>
+                        <a href="buynow.html" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                      </div>
+                    </div>
+                    </div>
+  
+                    <div class="col-12 col-md-6 col-lg-3  mb-4">
+                      <div class="card border-0 mx-auto" style="width: 18rem;">
+                        <img src="https://www.cityflowers.co.in/cdn/shop/products/ef1603_2qk9lhtfq9qryzg0_10122949-c697-4cfe-8c89-f26c10601726_360x.jpg?v=1616428265" class="card-img-top moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                        <div class="card-body">
+                          <h6 class="card-title text-center" style="font-family:monospace;">Supreme Smile Bouquet</h6>
+                          <p class="card-text text-center" style="font-family:monospace;">Rs.1099 only</p>
+                          <a href="buynow.html" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                        
+                      </div>
+                      </div>
+                    </div>
+  
+                    <div class="col-12 col-md-6 col-lg-3  mb-4">
+                      <div class="card border-0 mx-auto" style="width: 18rem;">
+                        <img src="https://www.cityflowers.co.in/cdn/shop/products/ef1607_pulwcxi9l1qhfbz6_9cfa0da7-4ef5-48fb-973d-c08c8dff7e76_360x.jpg?v=1616429106" class="card-img-top img-fluid moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                        <div class="card-body">
+                          <h6 class="card-title text-center" style="font-family:monospace;">Golden Wishes</h6>
+                          <p class="card-text text-center" style="font-family:monospace;"><del>Rs.899</del><span class="text-danger">Rs.699 only</span> </p>
+                          <a href="buynow.html" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                        </div>
+                      </div>
+                      </div>
+  
+  
+              </div>
+              <!-- 3rd row -->
+              <div class="row mt-3">
+              
+                <div class="col-12 col-md-6 col-lg-3  mb-4 ">
+                  <div class="card border-0 mx-auto" style="width: 18rem;">
+                    <img src="https://www.cityflowers.co.in/cdn/shop/products/ef1595_klk3zzpvmpmz60va_d32ad72e-8f9b-40fe-b8db-2e1243bda0df_360x.jpg?v=1616427136" class="card-img-top img-fluid moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                    <div class="card-body">
+                      <h6 class="card-title text-center" style="font-family:monospace;">Tenacious Pretty Bouquet</h6>
+                      <p class="card-text text-center" style="font-family:monospace;">Rs.1,349</p>
+                      <a href="buynow.html" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                    </div>
+                  </div>
+                  </div>
+    
+                 
+    
+                    <div class="col-12 col-md-6 col-lg-3  mb-4">
+                      <div class="card border-0 mx-auto" style="width: 18rem;">
+                        <img src="https://www.cityflowers.co.in/cdn/shop/products/ef1596_zpm0w6krqhiibfsh_eedb6af1-0229-4083-9c76-0245dd4f05c7_360x.jpg?v=1616427678" class="card-img-top moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                        <div class="card-body">
+                          <h6 class="card-title text-center" style="font-family:monospace;">Sumptuous Premium Roses & Lilies</h6>
+                          <p class="card-text text-center" style="font-family:monospace;"><del >Rs.2,118</del><span class="text-danger"> Rs.1,918 only</span>  </p>
+                          <a href="buynow.html" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                        </div>
+                      </div>
+                      </div>
+    
+                      <div class="col-12 col-md-6 col-lg-3  mb-4">
+                        <div class="card border-0 mx-auto" style="width: 18rem;">
+                          <img src="https://www.cityflowers.co.in/cdn/shop/products/ef1526_xxkvpe4ihb1felos_665bb886-0da2-4895-886c-b5d03dd7d145_360x.jpg?v=1616429905" class="card-img-top moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                          <div class="card-body">
+                            <h6 class="card-title text-center" style="font-family:monospace;">Endearing Bouquet</h6>
+                            <p class="card-text text-center" style="font-family:monospace;">From Rs.599 only</p>
+                            <a href="buynow.html" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                          
+                        </div>
+                        </div>
+                      </div>
+    
+                      <div class="col-12 col-md-6 col-lg-3  mb-4">
+                        <div class="card border-0 mx-auto" style="width: 18rem;">
+                          <img src="https://www.cityflowers.co.in/cdn/shop/products/ef1524_uouujrqbwllbfnf2_d031bec6-bfac-4f0b-b34c-0e71fab41315_360x.jpg?v=1616430669" class="card-img-top img-fluid moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                          <div class="card-body">
+                            <h6 class="card-title text-center" style="font-family:monospace;">Mix Divine carnations</h6>
+                            <p class="card-text text-center" style="font-family:monospace;">From Rs.655 </p>
+                            <a href="buynow.html" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                          </div>
+                        </div>
+                        </div>
+    
+    
+                </div>
+                
+
+              <!-- 4rd row -->
+
+              <div class="row mt-3">
+              
+                <div class="col-12 col-md-6 col-lg-3  mb-4 ">
+                  <div class="card border-0 mx-auto" style="width: 18rem;">
+                    <img src="https://www.cityflowers.co.in/cdn/shop/products/ef1608_wqupv4w6uzrxnyyq_a465f193-f63e-4150-93ba-dac683459ee1_360x.jpg?v=1616429575" class="card-img-top img-fluid moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                    <div class="card-body">
+                      <h6 class="card-title text-center" style="font-family:monospace;">Pastel Pure Bonanza</h6>
+                      <p class="card-text text-center" style="font-family:monospace;">Rs.1,149 only</p>
+                      <a href="buynow.html" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                    </div>
+                  </div>
+                  </div>
+    
+                 
+    
+                    <div class="col-12 col-md-6 col-lg-3  mb-4">
+                      <div class="card border-0 mx-auto" style="width: 18rem;">
+                        <img src="https://www.cityflowers.co.in/cdn/shop/products/ef1601_bwcuhvqnjj2erzup_b7b7eb05-9cf7-4034-b235-a8d388acb713_360x.jpg?v=1616427631" class="card-img-top moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                        <div class="card-body">
+                          <h6 class="card-title text-center" style="font-family:monospace;">Luxiuriant Hand Tied Bunch</h6>
+                          <p class="card-text text-center" style="font-family:monospace;"><del >Rs.999</del><span class="text-danger"> Rs.899 only</span>  </p>
+                          <a href="buynow.html" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                        </div>
+                      </div>
+                      </div>
+    
+                      <div class="col-12 col-md-6 col-lg-3  mb-4">
+                        <div class="card border-0 mx-auto" style="width: 18rem;">
+                          <img src="https://www.cityflowers.co.in/cdn/shop/products/ef1603_2qk9lhtfq9qryzg0_10122949-c697-4cfe-8c89-f26c10601726_360x.jpg?v=1616428265" class="card-img-top moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                          <div class="card-body">
+                            <h6 class="card-title text-center" style="font-family:monospace;">Supreme Smile Bouquet</h6>
+                            <p class="card-text text-center" style="font-family:monospace;">Rs.1099 only</p>
+                            <a href="buynow.html" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                          
+                        </div>
+                        </div>
+                      </div>
+    
+                      <div class="col-12 col-md-6 col-lg-3  mb-4">
+                        <div class="card border-0 mx-auto" style="width: 18rem;">
+                          <img src="https://www.cityflowers.co.in/cdn/shop/products/ef1607_pulwcxi9l1qhfbz6_9cfa0da7-4ef5-48fb-973d-c08c8dff7e76_360x.jpg?v=1616429106" class="card-img-top img-fluid moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                          <div class="card-body">
+                            <h6 class="card-title text-center" style="font-family:monospace;">Golden Wishes</h6>
+                            <p class="card-text text-center" style="font-family:monospace;"><del>Rs.899</del><span class="text-danger">Rs.699 only</span> </p>
+                            <a href="buynow.html" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                          </div>
+                        </div>
+                        </div>
+    
+    
+                </div>
+  
+          
+        </div>
+
+        <!-- baseket -->
+         
+        <div id="section2" class="container-fluid p-2 m-2  ">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h3 class="anitha  display-6" >BASKET BOUQUET</h3>
+            </div>
+          </div>
+            <!-- 1st row -->
+            <div class="row mt-3">
+              
+            <div class="col-12 col-md-6 col-lg-3  mb-4">
+              <div class="card border-0 mx-auto" style="width: 18rem;">
+                <img src="https://m.media-amazon.com/images/I/610hRnQsqpL._AC._SR360,460.jpg" class="card-img-top img-fluid moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                <div class="card-body">
+                  <h6 class="card-title text-center" style="font-family:monospace;">Floral Mart</h6>
+                  <p class="card-text text-center" style="font-family:monospace;"><del >Rs.2099</del><span class="text-danger">Rs.1,270 only</span></p>
+                  <a href="buynow.html" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                </div>
+              </div>
+              </div>
+
+             
+
+                <div class="col-12 col-md-6 col-lg-3  mb-4">
+                  <div class="card border-0 mx-auto" style="width: 18rem;">
+                    <img src="https://m.media-amazon.com/images/I/51va-GwspXL._AC._SR360,460.jpg" class="card-img-top moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                    <div class="card-body">
+                      <h6 class="card-title text-center" style="font-family:monospace;">Mixed Flower Basket</h6>
+                      <p class="card-text text-center" style="font-family:monospace;"><del >Rs.1,933</del><span class="text-danger"> Rs.1,560 only</span>  </p>
+                      <a href="buynow.html" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                    </div>
+                  </div>
+                  </div>
+
+                  <div class="col-12 col-md-6 col-lg-3  mb-4">
+                    <div class="card border-0 mx-auto" style="width: 18rem;">
+                      <img src="https://m.media-amazon.com/images/I/71P404GG8cL._AC._SR360,460.jpg" class="card-img-top moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                      <div class="card-body">
+                        <h6 class="card-title text-center" style="font-family:monospace;">Marvellous Combination</h6>
+                        <p class="card-text text-center" style="font-family:monospace;">From Rs.700 only</p>
+                        <a href="buynow.html" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                      
+                    </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-6 col-lg-3  mb-4">
+                    <div class="card border-0 mx-auto" style="width: 18rem;">
+                      <img src="https://m.media-amazon.com/images/I/61KSu-eQiUL._AC._SR360,460.jpg" class="card-img-top img-fluid moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                      <div class="card-body">
+                        <h6 class="card-title text-center" style="font-family:monospace;">Handle Basket</h6>
+                        <p class="card-text text-center" style="font-family:monospace;">From Rs.899 </p>
+                        <a href="buynow.html" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                      </div>
+                    </div>
+                    </div>
+
+
+            </div>
+            
+
+            <!-- 2nd row -->
+            <div class="row mt-3">
+              
+              <div class="col-12 col-md-6 col-lg-3  mb-4">
+                <div class="card border-0 mx-auto" style="width: 18rem;">
+                  <img src="https://www.cityflowers.co.in/cdn/shop/products/a1roses_lily103_1_xmqgk6gu0y3evaml_360x.jpg?v=1616428999" class="card-img-top img-fluid moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                  <div class="card-body">
+                    <h6 class="card-title text-center" style="font-family:monospace;">Exotic Basket</h6>
+                    <p class="card-text text-center" style="font-family:monospace;"> from Rs.1,149</p>
+                    <a href="buynow.html" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                  </div>
+                </div>
+                </div>
+  
+               
+  
+                  <div class="col-12 col-md-6 col-lg-3  mb-4">
+                    <div class="card border-0 mx-auto" style="width: 18rem;">
+                      <img src="https://www.cityflowers.co.in/cdn/shop/products/1002_mwnbf6nsfqzsklic_fbc625ff-3282-423a-8fe2-9a815f847e6a_360x.jpg?v=1616428925" class="card-img-top moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                      <div class="card-body">
+                        <h6 class="card-title text-center" style="font-family:monospace;">Roses Hearty Love</h6>
+                        <p class="card-text text-center" style="font-family:monospace;"><del >Rs.999</del><span class="text-danger"> Rs.499 only</span>  </p>
+                        <a href="buynow.html" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                      </div>
+                    </div>
+                    </div>
+  
+                    <div class="col-12 col-md-6 col-lg-3  mb-4">
+                      <div class="card border-0 mx-auto" style="width: 18rem;">
+                        <img src="https://www.cityflowers.co.in/cdn/shop/products/1003_1_1_pkzsrapty6msc41g_5dce1869-7448-46fc-b1ba-dfeeeb1e5bdd_360x.jpg?v=1616428812" class="card-img-top moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                        <div class="card-body">
+                          <h6 class="card-title text-center" style="font-family:monospace;">A Shine Vibe</h6>
+                          <p class="card-text text-center" style="font-family:monospace;">Rs.1,575 only</p>
+                          <a href="buynow.html" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                        
+                      </div>
+                      </div>
+                    </div>
+  
+                    <div class="col-12 col-md-6 col-lg-3  mb-4">
+                      <div class="card border-0 mx-auto" style="width: 18rem;">
+                        <img src="https://www.cityflowers.co.in/cdn/shop/products/ef1619_trk76suolewy5xut_eb3b2750-3e94-456e-994e-9439a163b545_360x.jpg?v=1616428414" class="card-img-top img-fluid moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                        <div class="card-body">
+                          <h6 class="card-title text-center" style="font-family:monospace;">Blazzing Passion Basket</h6>
+                          <p class="card-text text-center" style="font-family:monospace;"><del>Rs.2,999</del><span class="text-danger">Rs.1,999 only</span> </p>
+                          <a href="buynow.html" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                        </div>
+                      </div>
+                      </div>
+  
+  
+              </div>
+              <!-- 3rd row -->
+              <div class="row mt-3">
+              
+                <div class="col-12 col-md-6 col-lg-3  mb-4 ">
+                  <div class="card border-0 mx-auto" style="width: 18rem;">
+                    <img src="https://www.cityflowers.co.in/cdn/shop/products/a1roses_402_w580m8cojfkk8qjz_360x.jpg?v=1616427366" class="card-img-top img-fluid moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                    <div class="card-body">
+                      <h6 class="card-title text-center" style="font-family:monospace;">Blushing Innocent Love</h6>
+                      <p class="card-text text-center" style="font-family:monospace;">Rs.1,349</p>
+                      <a href="buynow.html" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                    </div>
+                  </div>
+                  </div>
+    
+                 
+    
+                    <div class="col-12 col-md-6 col-lg-3  mb-4">
+                      <div class="card border-0 mx-auto" style="width: 18rem;">
+                        <img src="https://www.cityflowers.co.in/cdn/shop/products/a1roses_509_kct4wyoo8amfuoon_360x.jpg?v=1616430270" class="card-img-top moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                        <div class="card-body">
+                          <h6 class="card-title text-center" style="font-family:monospace;">Teddies in Flower Basket</h6>
+                          <p class="card-text text-center" style="font-family:monospace;"><del >Rs.2,118</del><span class="text-danger"> Rs.1,918 only</span>  </p>
+                          <a href="buynow.html" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                        </div>
+                      </div>
+                      </div>
+    
+                      <div class="col-12 col-md-6 col-lg-3  mb-4">
+                        <div class="card border-0 mx-auto" style="width: 18rem;">
+                          <img src="https://www.arenaflowers.co.in/cdn/shop/products/ef1602_1024x1024.jpg?v=1617975831" class="card-img-top moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                          <div class="card-body">
+                            <h6 class="card-title text-center" style="font-family:monospace;">Glorious Basket</h6>
+                            <p class="card-text text-center" style="font-family:monospace;">From Rs.1,359 only</p>
+                            <a href="buynow.html" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                          
+                        </div>
+                        </div>
+                      </div>
+    
+                      <div class="col-12 col-md-6 col-lg-3  mb-4">
+                        <div class="card border-0 mx-auto" style="width: 18rem;">
+                          <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTFTVXG3bOfzQo016iexsPN4cY2Iu2f6E5Cn3z3Hqcmtvt9FwTzB4_I8DqsZGVk_roeJ9q16bn5H9GOCR8Ee3BstmpX2gC7n-8I4gBhuPQ_fcTl2SuXacEi" class="card-img-top img-fluid moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                          <div class="card-body">
+                            <h6 class="card-title text-center" style="font-family:monospace;">Teleflora Pleasing Purplr Basket</h6>
+                            <p class="card-text text-center" style="font-family:monospace;">From Rs.5,050 </p>
+                            <a href="buynow.html" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                          </div>
+                        </div>
+                        </div>
+    
+    
+                </div>
+                
+
+              <!-- 4rd row -->
+
+              <div class="row mt-3">
+              
+                <div class="col-12 col-md-6 col-lg-3  mb-4 ">
+                  <div class="card border-0 mx-auto" style="width: 18rem;">
+                    <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRBqtIZJDN5g3Vg432h7AAvjjshHTaus5CUZgRuI7oUUxp-FlRPgF87sGhmQZtbXIan_ADUGoXr5KvCl9jPmcGZtdGERcGROE70gktCJXI" class="card-img-top img-fluid moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                    <div class="card-body">
+                      <h6 class="card-title text-center" style="font-family:monospace;">Enduring Grace Basket</h6>
+                      <p class="card-text text-center" style="font-family:monospace;">Rs.1,149 only</p>
+                      <a href="#" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                    </div>
+                  </div>
+                  </div>
+    
+                 
+    
+                    <div class="col-12 col-md-6 col-lg-3  mb-4">
+                      <div class="card border-0 mx-auto" style="width: 18rem;">
+                        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRHwhzwkCX2IsIrhyCOXLzyxFGnZQaze3Gnc8eTGyNFmFrR6wHnHVTMt-ZoERP0vjEZNbV31-qEhWEweD_eiCleDtAtfPxs" class="card-img-top moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                        <div class="card-body">
+                          <h6 class="card-title text-center" style="font-family:monospace;">Yellow Roses Basket</h6>
+                          <p class="card-text text-center" style="font-family:monospace;"><del >Rs.999</del><span class="text-danger"> Rs.899 only</span>  </p>
+                          <a href="#" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                        </div>
+                      </div>
+                      </div>
+    
+                      <div class="col-12 col-md-6 col-lg-3  mb-4">
+                        <div class="card border-0 mx-auto" style="width: 18rem;">
+                          <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR8UoWgU9FuWLSiDdZaXv_EKtW2pKA_PAFUQxTSVj6D-RVSEE9B3aMsmTmq-CFbYWXUDQX0EW5k2TDxi_baikXXF3yjqaEFQD4I4hfe_WAKZPn7I-HsKwiT" class="card-img-top moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                          <div class="card-body">
+                            <h6 class="card-title text-center" style="font-family:monospace;">Supreme Smile Bouquet</h6>
+                            <p class="card-text text-center" style="font-family:monospace;">Rs.1099 only</p>
+                            <a href="#" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                          
+                        </div>
+                        </div>
+                      </div>
+    
+                      <div class="col-12 col-md-6 col-lg-3  mb-4">
+                        <div class="card border-0 mx-auto" style="width: 18rem;">
+                          <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTZt2ZxIwGIwwTKqNqsN8kttlhBrxc_MCEw9QWytg7TRKhUUMK_fGCo7oqJEexlYajuRR8Vi5MIddQyfb90bp0mEHEfOKkjw9rqt-8y_RCHEusEt_UzRNEP" class="card-img-top img-fluid moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                          <div class="card-body">
+                            <h6 class="card-title text-center" style="font-family:monospace;">Heart basket</h6>
+                            <p class="card-text text-center" style="font-family:monospace;"><del>Rs.899</del><span class="text-danger">Rs.699 only</span> </p>
+                            <a href="#" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                          </div>
+                        </div>
+                        </div>
+    
+    
+                </div>
+  
+          
+        </div>
+
+         <!-- single stem boquet -->
+         
+         <div id="section3" class="container-fluid p-2 m-2  ">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h3 class="anitha  display-6" >SINGLE-STEM BOUQUET</h3>
+            </div>
+          </div>
+            <!-- 1st row -->
+            <div class="row mt-3">
+              
+            <div class="col-12 col-md-6 col-lg-3  mb-4">
+              <div class="card border-0 mx-auto" style="width: 18rem;">
+                <img src="https://img.freepik.com/premium-photo/beautiful-wedding-bouquet-white-pink-roses-green-grass-flower-arrangement-stylish-bridal-bouquet-outdoors-with-space-wedding-details_133138-423.jpg?ga=GA1.1.1390416424.1730995837&semt=ais_hybrid" class="card-img-top img-fluid moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                <div class="card-body">
+                  <h6 class="card-title text-center" style="font-family:monospace;">Floral Mart</h6>
+                  <p class="card-text text-center" style="font-family:monospace;"><del >Rs.2099</del><span class="text-danger">Rs.1,270 only</span></p>
+                  <a href="#" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                </div>
+              </div>
+              </div>
+
+             
+
+                <div class="col-12 col-md-6 col-lg-3  mb-4">
+                  <div class="card border-0 mx-auto" style="width: 18rem;">
+                    <img src="https://img.freepik.com/premium-photo/bridal-bouquet-bride-s-bouquet-lies-chair_127746-1448.jpg?ga=GA1.1.1390416424.1730995837&semt=ais_hybrid" class="card-img-top moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                    <div class="card-body">
+                      <h6 class="card-title text-center" style="font-family:monospace;">Mixed Flower Basket</h6>
+                      <p class="card-text text-center" style="font-family:monospace;"><del >Rs.1,933</del><span class="text-danger"> Rs.1,560 only</span>  </p>
+                      <a href="#" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                    </div>
+                  </div>
+                  </div>
+
+                  <div class="col-12 col-md-6 col-lg-3  mb-4">
+                    <div class="card border-0 mx-auto" style="width: 18rem;">
+                      <img src="https://img.freepik.com/free-photo/wedding-roses-bouquet-stands-chair-around-are-scattered-petals-roses_8353-9798.jpg?ga=GA1.1.1390416424.1730995837&semt=ais_hybrid" class="card-img-top moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                      <div class="card-body">
+                        <h6 class="card-title text-center" style="font-family:monospace;">Marvellous Combination</h6>
+                        <p class="card-text text-center" style="font-family:monospace;">From Rs.700 only</p>
+                        <a href="#" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                      
+                    </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-6 col-lg-3  mb-4">
+                    <div class="card border-0 mx-auto" style="width: 18rem;">
+                      <img src="https://img.freepik.com/premium-photo/bridal-bouquet-white-pink-roses-wild-berries-eustoma-with-white-lace-ribbons-dry_278455-10574.jpg?ga=GA1.1.1390416424.1730995837&semt=ais_hybrid" class="card-img-top img-fluid moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                      <div class="card-body">
+                        <h6 class="card-title text-center" style="font-family:monospace;">Handle Basket</h6>
+                        <p class="card-text text-center" style="font-family:monospace;">From Rs.899 </p>
+                        <a href="#" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                      </div>
+                    </div>
+                    </div>
+
+
+            </div>
+            
+
+            <!-- 2nd row -->
+            <div class="row mt-3">
+              
+              <div class="col-12 col-md-6 col-lg-3  mb-4">
+                <div class="card border-0 mx-auto" style="width: 18rem;">
+                  <img src="https://img.freepik.com/free-photo/wedding-bouquet-wedding-decoration-flowers-wedding-floral-arrangements_78826-2190.jpg?ga=GA1.1.1390416424.1730995837&semt=ais_hybrid" class="card-img-top img-fluid moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                  <div class="card-body">
+                    <h6 class="card-title text-center" style="font-family:monospace;">Exotic Basket</h6>
+                    <p class="card-text text-center" style="font-family:monospace;"> from Rs.1,149</p>
+                    <a href="#" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                  </div>
+                </div>
+                </div>
+  
+               
+  
+                  <div class="col-12 col-md-6 col-lg-3  mb-4">
+                    <div class="card border-0 mx-auto" style="width: 18rem;">
+                      <img src="https://img.freepik.com/premium-photo/brides-bouquet-vintage-wooden-floor-sunlight_419896-805.jpg?ga=GA1.1.1390416424.1730995837&semt=ais_hybrid" class="card-img-top moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                      <div class="card-body">
+                        <h6 class="card-title text-center" style="font-family:monospace;">Roses Hearty Love</h6>
+                        <p class="card-text text-center" style="font-family:monospace;"><del >Rs.999</del><span class="text-danger"> Rs.499 only</span>  </p>
+                        <a href="#" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                      </div>
+                    </div>
+                    </div>
+  
+                    <div class="col-12 col-md-6 col-lg-3  mb-4">
+                      <div class="card border-0 mx-auto" style="width: 18rem;">
+                        <img src="https://img.freepik.com/free-photo/closeup-shot-beautiful-flower-bouquet-wooden-surface_181624-11257.jpg?ga=GA1.1.1390416424.1730995837&semt=ais_hybrid" class="card-img-top moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                        <div class="card-body">
+                          <h6 class="card-title text-center" style="font-family:monospace;">A Shine Vibe</h6>
+                          <p class="card-text text-center" style="font-family:monospace;">Rs.1,575 only</p>
+                          <a href="#" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                        
+                      </div>
+                      </div>
+                    </div>
+  
+                    <div class="col-12 col-md-6 col-lg-3  mb-4">
+                      <div class="card border-0 mx-auto" style="width: 18rem;">
+                        <img src="https://img.freepik.com/free-photo/bouquet-flowers_1153-101.jpg?ga=GA1.1.1390416424.1730995837&semt=ais_hybrid" class="card-img-top img-fluid moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                        <div class="card-body">
+                          <h6 class="card-title text-center" style="font-family:monospace;">Blazzing Passion Basket</h6>
+                          <p class="card-text text-center" style="font-family:monospace;"><del>Rs.2,999</del><span class="text-danger">Rs.1,999 only</span> </p>
+                          <a href="#" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                        </div>
+                      </div>
+                      </div>
+  
+  
+              </div>
+              <!-- 3rd row -->
+              <div class="row mt-3">
+              
+                <div class="col-12 col-md-6 col-lg-3  mb-4 ">
+                  <div class="card border-0 mx-auto" style="width: 18rem;">
+                    <img src="https://img.freepik.com/premium-photo/close-up-bouquet-chair_1048944-20719272.jpg?ga=GA1.1.1390416424.1730995837&semt=ais_hybrid" class="card-img-top img-fluid moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                    <div class="card-body">
+                      <h6 class="card-title text-center" style="font-family:monospace;">Blushing Innocent Love</h6>
+                      <p class="card-text text-center" style="font-family:monospace;">Rs.1,349</p>
+                      <a href="#" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                    </div>
+                  </div>
+                  </div>
+    
+                 
+    
+                    <div class="col-12 col-md-6 col-lg-3  mb-4">
+                      <div class="card border-0 mx-auto" style="width: 18rem;">
+                        <img src="https://img.freepik.com/free-photo/wedding-bouquet_23-2147990680.jpg?ga=GA1.1.1390416424.1730995837&semt=ais_hybrid" class="card-img-top moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                        <div class="card-body">
+                          <h6 class="card-title text-center" style="font-family:monospace;">Teddies in Flower Basket</h6>
+                          <p class="card-text text-center" style="font-family:monospace;"><del >Rs.2,118</del><span class="text-danger"> Rs.1,918 only</span>  </p>
+                          <a href="#" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                        </div>
+                      </div>
+                      </div>
+    
+                      <div class="col-12 col-md-6 col-lg-3  mb-4">
+                        <div class="card border-0 mx-auto" style="width: 18rem;">
+                          <img src="https://img.freepik.com/premium-photo/bridal-bouquet-bride-s-bouquet-lies-chair_127746-1448.jpg?ga=GA1.1.1390416424.1730995837&semt=ais_hybrid" class="card-img-top moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                          <div class="card-body">
+                            <h6 class="card-title text-center" style="font-family:monospace;">Glorious Basket</h6>
+                            <p class="card-text text-center" style="font-family:monospace;">From Rs.1,359 only</p>
+                            <a href="#" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                          
+                        </div>
+                        </div>
+                      </div>
+    
+                      <div class="col-12 col-md-6 col-lg-3  mb-4">
+                        <div class="card border-0 mx-auto" style="width: 18rem;">
+                          <img src="https://img.freepik.com/free-photo/bunch-beautiful-flowers-table-filtered-image-processed-v_1232-2211.jpg?ga=GA1.1.1390416424.1730995837&semt=ais_hybrid" class="card-img-top img-fluid moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                          <div class="card-body">
+                            <h6 class="card-title text-center" style="font-family:monospace;">Teleflora Pleasing Purplr Basket</h6>
+                            <p class="card-text text-center" style="font-family:monospace;">From Rs.5,050 </p>
+                            <a href="#" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                          </div>
+                        </div>
+                        </div>
+    
+    
+                </div>
+                
+
+              <!-- 4rd row -->
+
+              <div class="row mt-3">
+              
+                <div class="col-12 col-md-6 col-lg-3  mb-4 ">
+                  <div class="card border-0 mx-auto" style="width: 18rem;">
+                    <img src="https://img.freepik.com/free-photo/side-view-bride-holding-white-roses-clutch_23-2147936499.jpg?ga=GA1.1.1390416424.1730995837&semt=ais_hybrid" class="card-img-top img-fluid moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                    <div class="card-body">
+                      <h6 class="card-title text-center" style="font-family:monospace;">Enduring Grace Basket</h6>
+                      <p class="card-text text-center" style="font-family:monospace;">Rs.1,149 only</p>
+                      <a href="#" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                    </div>
+                  </div>
+                  </div>
+    
+                 
+    
+                    <div class="col-12 col-md-6 col-lg-3  mb-4">
+                      <div class="card border-0 mx-auto" style="width: 18rem;">
+                        <img src="https://img.freepik.com/premium-photo/bridal-bouquet-wooden-table_5850-773.jpg?ga=GA1.1.1390416424.1730995837&semt=ais_hybrid" class="card-img-top moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                        <div class="card-body">
+                          <h6 class="card-title text-center" style="font-family:monospace;">Yellow Roses Basket</h6>
+                          <p class="card-text text-center" style="font-family:monospace;"><del >Rs.999</del><span class="text-danger"> Rs.899 only</span>  </p>
+                          <a href="#" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                        </div>
+                      </div>
+                      </div>
+    
+                      <div class="col-12 col-md-6 col-lg-3  mb-4">
+                        <div class="card border-0 mx-auto" style="width: 18rem;">
+                          <img src="https://img.freepik.com/free-photo/bouquet-flower_74190-3912.jpg?ga=GA1.1.1390416424.1730995837&semt=ais_hybrid" class="card-img-top moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                          <div class="card-body">
+                            <h6 class="card-title text-center" style="font-family:monospace;">Supreme Smile Bouquet</h6>
+                            <p class="card-text text-center" style="font-family:monospace;">Rs.1099 only</p>
+                            <a href="#" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                          
+                        </div>
+                        </div>
+                      </div>
+    
+                      <div class="col-12 col-md-6 col-lg-3  mb-4">
+                        <div class="card border-0 mx-auto" style="width: 18rem;">
+                          <img src="https://img.freepik.com/free-photo/green-bunch-woman-gift-dress_1203-3941.jpg?ga=GA1.1.1390416424.1730995837&semt=ais_hybrid" class="card-img-top img-fluid moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                          <div class="card-body">
+                            <h6 class="card-title text-center" style="font-family:monospace;">Heart basket</h6>
+                            <p class="card-text text-center" style="font-family:monospace;"><del>Rs.899</del><span class="text-danger">Rs.699 only</span> </p>
+                            <a href="#" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                          </div>
+                        </div>
+                        </div>
+    
+    
+                </div>
+  
+          
+        </div>
+
+         <!-- SHOWER BOUQUET -->
+         
+         <div id="section4" class="container-fluid p-2 m-2  ">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h3 class="anitha  display-6" >SHOWER BOUQUET</h3>
+            </div>
+          </div>
+            <!-- 1st row -->
+            <div class="row mt-3">
+              
+            <div class="col-12 col-md-6 col-lg-3  mb-4">
+              <div class="card border-0 mx-auto" style="width: 18rem;">
+                <img src="https://i.pinimg.com/736x/7c/a7/dc/7ca7dc0fdea0818933e6b6da3ab371a9.jpg" class="card-img-top img-fluid moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                <div class="card-body">
+                  <h6 class="card-title text-center" style="font-family:monospace;">Floral Mart</h6>
+                  <p class="card-text text-center" style="font-family:monospace;"><del >Rs.2099</del><span class="text-danger">Rs.1,270 only</span></p>
+                  <a href="#" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                </div>
+              </div>
+              </div>
+
+             
+
+                <div class="col-12 col-md-6 col-lg-3  mb-4">
+                  <div class="card border-0 mx-auto" style="width: 18rem;">
+                    <img src="https://i.pinimg.com/474x/ca/6e/4e/ca6e4ec9618e03918f301ab971fe0eba.jpg" class="card-img-top moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                    <div class="card-body">
+                      <h6 class="card-title text-center" style="font-family:monospace;">Mixed Flower Basket</h6>
+                      <p class="card-text text-center" style="font-family:monospace;"><del >Rs.1,933</del><span class="text-danger"> Rs.1,560 only</span>  </p>
+                      <a href="#" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                    </div>
+                  </div>
+                  </div>
+
+                  <div class="col-12 col-md-6 col-lg-3  mb-4">
+                    <div class="card border-0 mx-auto" style="width: 18rem;">
+                      <img src="https://i.pinimg.com/474x/c0/c8/f0/c0c8f00aa9dedc1b763f73b2bb998800.jpg" class="card-img-top moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                      <div class="card-body">
+                        <h6 class="card-title text-center" style="font-family:monospace;">Marvellous Combination</h6>
+                        <p class="card-text text-center" style="font-family:monospace;">From Rs.700 only</p>
+                        <a href="#" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                      
+                    </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-6 col-lg-3  mb-4">
+                    <div class="card border-0 mx-auto" style="width: 18rem;">
+                      <img src="https://i.pinimg.com/474x/21/5d/0f/215d0f1bab4d781f754d836e9ce5f296.jpg" class="card-img-top img-fluid moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                      <div class="card-body">
+                        <h6 class="card-title text-center" style="font-family:monospace;">Handle Basket</h6>
+                        <p class="card-text text-center" style="font-family:monospace;">From Rs.899 </p>
+                        <a href="#" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                      </div>
+                    </div>
+                    </div>
+
+
+            </div>
+            
+
+            <!-- 2nd row -->
+            <div class="row mt-3">
+              
+              <div class="col-12 col-md-6 col-lg-3  mb-4">
+                <div class="card border-0 mx-auto" style="width: 18rem;">
+                  <img src="https://img.freepik.com/free-photo/wedding-bouquet-wedding-decoration-flowers-wedding-floral-arrangements_78826-2190.jpg?ga=GA1.1.1390416424.1730995837&semt=ais_hybrid" class="card-img-top img-fluid moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                  <div class="card-body">
+                    <h6 class="card-title text-center" style="font-family:monospace;">Exotic Basket</h6>
+                    <p class="card-text text-center" style="font-family:monospace;"> from Rs.1,149</p>
+                    <a href="#" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                  </div>
+                </div>
+                </div>
+  
+               
+  
+                  <div class="col-12 col-md-6 col-lg-3  mb-4">
+                    <div class="card border-0 mx-auto" style="width: 18rem;">
+                      <img src="https://img.freepik.com/premium-photo/brides-bouquet-vintage-wooden-floor-sunlight_419896-805.jpg?ga=GA1.1.1390416424.1730995837&semt=ais_hybrid" class="card-img-top moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                      <div class="card-body">
+                        <h6 class="card-title text-center" style="font-family:monospace;">Roses Hearty Love</h6>
+                        <p class="card-text text-center" style="font-family:monospace;"><del >Rs.999</del><span class="text-danger"> Rs.499 only</span>  </p>
+                        <a href="#" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                      </div>
+                    </div>
+                    </div>
+  
+                    <div class="col-12 col-md-6 col-lg-3  mb-4">
+                      <div class="card border-0 mx-auto" style="width: 18rem;">
+                        <img src="https://img.freepik.com/free-photo/closeup-shot-beautiful-flower-bouquet-wooden-surface_181624-11257.jpg?ga=GA1.1.1390416424.1730995837&semt=ais_hybrid" class="card-img-top moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                        <div class="card-body">
+                          <h6 class="card-title text-center" style="font-family:monospace;">A Shine Vibe</h6>
+                          <p class="card-text text-center" style="font-family:monospace;">Rs.1,575 only</p>
+                          <a href="#" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                        
+                      </div>
+                      </div>
+                    </div>
+  
+                    <div class="col-12 col-md-6 col-lg-3  mb-4">
+                      <div class="card border-0 mx-auto" style="width: 18rem;">
+                        <img src="https://img.freepik.com/free-photo/bouquet-flowers_1153-101.jpg?ga=GA1.1.1390416424.1730995837&semt=ais_hybrid" class="card-img-top img-fluid moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                        <div class="card-body">
+                          <h6 class="card-title text-center" style="font-family:monospace;">Blazzing Passion Basket</h6>
+                          <p class="card-text text-center" style="font-family:monospace;"><del>Rs.2,999</del><span class="text-danger">Rs.1,999 only</span> </p>
+                          <a href="#" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                        </div>
+                      </div>
+                      </div>
+  
+  
+              </div>
+              <!-- 3rd row -->
+              <div class="row mt-3">
+              
+                <div class="col-12 col-md-6 col-lg-3  mb-4 ">
+                  <div class="card border-0 mx-auto" style="width: 18rem;">
+                    <img src="https://img.freepik.com/premium-photo/close-up-bouquet-chair_1048944-20719272.jpg?ga=GA1.1.1390416424.1730995837&semt=ais_hybrid" class="card-img-top img-fluid moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                    <div class="card-body">
+                      <h6 class="card-title text-center" style="font-family:monospace;">Blushing Innocent Love</h6>
+                      <p class="card-text text-center" style="font-family:monospace;">Rs.1,349</p>
+                      <a href="#" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                    </div>
+                  </div>
+                  </div>
+    
+                 
+    
+                    <div class="col-12 col-md-6 col-lg-3  mb-4">
+                      <div class="card border-0 mx-auto" style="width: 18rem;">
+                        <img src="https://img.freepik.com/free-photo/wedding-bouquet_23-2147990680.jpg?ga=GA1.1.1390416424.1730995837&semt=ais_hybrid" class="card-img-top moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                        <div class="card-body">
+                          <h6 class="card-title text-center" style="font-family:monospace;">Teddies in Flower Basket</h6>
+                          <p class="card-text text-center" style="font-family:monospace;"><del >Rs.2,118</del><span class="text-danger"> Rs.1,918 only</span>  </p>
+                          <a href="#" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                        </div>
+                      </div>
+                      </div>
+    
+                      <div class="col-12 col-md-6 col-lg-3  mb-4">
+                        <div class="card border-0 mx-auto" style="width: 18rem;">
+                          <img src="https://img.freepik.com/premium-photo/bridal-bouquet-bride-s-bouquet-lies-chair_127746-1448.jpg?ga=GA1.1.1390416424.1730995837&semt=ais_hybrid" class="card-img-top moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                          <div class="card-body">
+                            <h6 class="card-title text-center" style="font-family:monospace;">Glorious Basket</h6>
+                            <p class="card-text text-center" style="font-family:monospace;">From Rs.1,359 only</p>
+                            <a href="#" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                          
+                        </div>
+                        </div>
+                      </div>
+    
+                      <div class="col-12 col-md-6 col-lg-3  mb-4">
+                        <div class="card border-0 mx-auto" style="width: 18rem;">
+                          <img src="https://img.freepik.com/free-photo/bunch-beautiful-flowers-table-filtered-image-processed-v_1232-2211.jpg?ga=GA1.1.1390416424.1730995837&semt=ais_hybrid" class="card-img-top img-fluid moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                          <div class="card-body">
+                            <h6 class="card-title text-center" style="font-family:monospace;">Teleflora Pleasing Purplr Basket</h6>
+                            <p class="card-text text-center" style="font-family:monospace;">From Rs.5,050 </p>
+                            <a href="#" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                          </div>
+                        </div>
+                        </div>
+    
+    
+                </div>
+                
+
+              <!-- 4rd row -->
+
+              <div class="row mt-3">
+              
+                <div class="col-12 col-md-6 col-lg-3  mb-4 ">
+                  <div class="card border-0 mx-auto" style="width: 18rem;">
+                    <img src="https://img.freepik.com/free-photo/side-view-bride-holding-white-roses-clutch_23-2147936499.jpg?ga=GA1.1.1390416424.1730995837&semt=ais_hybrid" class="card-img-top img-fluid moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                    <div class="card-body">
+                      <h6 class="card-title text-center" style="font-family:monospace;">Enduring Grace Basket</h6>
+                      <p class="card-text text-center" style="font-family:monospace;">Rs.1,149 only</p>
+                      <a href="#" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                    </div>
+                  </div>
+                  </div>
+    
+                 
+    
+                    <div class="col-12 col-md-6 col-lg-3  mb-4">
+                      <div class="card border-0 mx-auto" style="width: 18rem;">
+                        <img src="https://img.freepik.com/premium-photo/bridal-bouquet-wooden-table_5850-773.jpg?ga=GA1.1.1390416424.1730995837&semt=ais_hybrid" class="card-img-top moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                        <div class="card-body">
+                          <h6 class="card-title text-center" style="font-family:monospace;">Yellow Roses Basket</h6>
+                          <p class="card-text text-center" style="font-family:monospace;"><del >Rs.999</del><span class="text-danger"> Rs.899 only</span>  </p>
+                          <a href="#" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                        </div>
+                      </div>
+                      </div>
+    
+                      <div class="col-12 col-md-6 col-lg-3  mb-4">
+                        <div class="card border-0 mx-auto" style="width: 18rem;">
+                          <img src="https://img.freepik.com/free-photo/bouquet-flower_74190-3912.jpg?ga=GA1.1.1390416424.1730995837&semt=ais_hybrid" class="card-img-top moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                          <div class="card-body">
+                            <h6 class="card-title text-center" style="font-family:monospace;">Supreme Smile Bouquet</h6>
+                            <p class="card-text text-center" style="font-family:monospace;">Rs.1099 only</p>
+                            <a href="#" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                          
+                        </div>
+                        </div>
+                      </div>
+    
+                      <div class="col-12 col-md-6 col-lg-3  mb-4">
+                        <div class="card border-0 mx-auto" style="width: 18rem;">
+                          <img src="https://img.freepik.com/free-photo/green-bunch-woman-gift-dress_1203-3941.jpg?ga=GA1.1.1390416424.1730995837&semt=ais_hybrid" class="card-img-top img-fluid moni" style="object-fit: cover; width:280px;height:250px;" alt="image">
+                          <div class="card-body">
+                            <h6 class="card-title text-center" style="font-family:monospace;">Heart basket</h6>
+                            <p class="card-text text-center" style="font-family:monospace;"><del>Rs.899</del><span class="text-danger">Rs.699 only</span> </p>
+                            <a href="#" class="btn btn-outline-dark d-flex justify-content-center"> Buy Now</a>
+                          </div>
+                        </div>
+                        </div>
+    
+    
+                </div>
+  
+          
+        </div>
+        <!-- footer part -->
+  <footer style="background-color: pink;color:black " >
+    <div class="container p-4" >
+      <div class="row">
+        <div class="col-6 col-md-4">
+            <h5 ><ins>RESOURCES</ins></h5>
+            <p>Blog</p>
+            <p>Terms of Service</p>
+            <p>Refund Policy</p>
+            <p>Privacy Policy</p>
+            <p>shipping Details</p>
+            <p>Contact us</p>
+
+        </div>
+        <div class="col-6 col-md-4">
+          <h5><ins>VISIT US IN STORE</ins></h5>
+          <p>111 Thompson Street</p>
+          <p>New York,Ny 10012</p>
+          <p>(347),573-1728</p>
+          <p>Mon-Sun:9am-6pm</p>  
+        </div>
+        <div class="col-12 col-md-4 md-text-align-center">
+          <h5><ins>CONECT WITH US</ins></h5>
+          <p>Explore our Social Media Channels to Read About Our Latest Insights.</p>
+          <p><span><i class="fa-brands fa-facebook"></i></span>                 <span><i class="fa-brands fa-twitter"></i></span>                 <span><i class="fa-brands fa-instagram"></i></span></p>
+        </div><hr>
+        <div class="col-12 text-center">
+               <p>Copyrights@2024 All Rights are Received at Bloom'n Bazaar</p>
+        </div>
+      </div>
+    </div>
+   </footer>
+    
+
+
+      
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+        
+    </body>
+    </html>
+    

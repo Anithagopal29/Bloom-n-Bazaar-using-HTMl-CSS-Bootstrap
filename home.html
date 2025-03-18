@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
+    "></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+</head>
+<style>
+    .dropdown:hover .dropdown-menu{
+        display:block;
+    }
+    .dropdown:hover > .nav-link {
+      text-decoration: underline;
+    }
+    .dropdown-menu .dropdown-item:hover {
+      text-decoration: underline;
+    }
+    .navbar-nav .nav-link:hover {
+        text-decoration: underline;
+    }
+    /* coursel */
+    
+
+    
+
+    .carousel-item img {
+      width: 100%; 
+      height: 550px; 
+      object-fit: cover; 
+    }
+    .anitha:hover{
+       text-decoration:underline;
+    }
+    
+   /* imageg animation */
+   .moni:hover{
+       transform:scale(1.2)
+   }
+   /* image overlay */
+   .image-overlay {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        
+
+    
+    .image-overlay .overlay-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            font-family: monospace;
+            font-size:14px ;
+        }
+        
+
+
+
+</style>
+
+<body>
+  <!-- header part -->
+    <header style="background-color: pink;color:black" class="fixed-top">
+
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+              <h3 class="   display-6 p-2" >Bloom'n Bazaar </h3>
+              <button class="navbar-toggler" type="button"  data-bs-toggle="collapse"  data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse  justify-content-center" id="navbarNavAltMarkup">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link active m-1" aria-current="page" href="home.html">HOME</a>
+                    </li>
+
+                    <!-- dropdown 1 -->
+                    <li class="nav-item dropdown m-1">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" href="shoppingbycollections.html" role="button"  aria-expanded="false">
+                            SHOP BY COLLECTIONS
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">BUNCHED BOUQUET</a></li>
+                            <li><a class="dropdown-item" href="#">BASKET BOUQUET</a></li>
+                            <li><a class="dropdown-item" href="#">SINGLE-STEM BOUQUET</a></li>
+                            <li><a class="dropdown-item" href="#">SHOWER BOUQUET</a></li>
+                            <li><a class="dropdown-item" href="#">CHOCOLATE BOUQUET</a></li>
+                          </ul>
+                     
+                    </li>
+
+                    <!-- dropdown2 -->
+                    <li class="nav-item dropdown m-1">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" href="shoppingbyoccassion.html" role="button"  aria-expanded="false">
+                            SHOP BY OCCASIONS
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">BIRTHDAY</a></li>
+                            <li><a class="dropdown-item" href="#">ANNIVERSARIES</a></li>
+                            <li><a class="dropdown-item" href="#">VALENTINE'S DAY</a></li>
+                            <li><a class="dropdown-item" href="#">WEDDINGS</a></li>
+                            <li><a class="dropdown-item" href="#">PROPOSALS/ENGAMENTS</a></li>
+                            <li><a class="dropdown-item" href="#">GRADUATIONS</a></li>
+                          </ul>
+                     
+                    </li>
+
+
+
+                    <li class="nav-item m-1">
+                      <a class="nav-link " href="contact.html" >REACHUS OUT</a>
+                    </li>
+                  </ul>
+              </div>
+
+              <!-- //for icons -->
+              <div class="collapse navbar-collapse justify-content-sm-end  ml-2" id="mynavbar">
+                <ul class="navbar-nav " >
+                  <li class="nav-item m-2">
+                    <a href="home.html" class="nav-link "><i class="fa-solid fa-house"></i></a>
+                </li>
+                    <li class="nav-item m-2">
+                        <a href="contact.html" class="nav-link "><i class="fa-solid fa-user"></i></a>
+                    </li>
+                    <li class="nav-item m-2">
+                        <a href="#" class="nav-link "><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </li>
+                    <li class="nav-item active m-2">
+                        <a href="#" class="nav-link "><i class="fa-solid fa-cart-shopping"></i></a>
+                    </li>
+                </ul>
+            </div>
+          </div>
+          </nav>
+  </header>
+
+  <!-- coursel -->
+  <div id="carouselExampleCaptions" class="carousel slide ">
+    <div class="carousel-indicators  ">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner   carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://images.unsplash.com/photo-1485700281629-290c5a704409?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="flower1">
+        <div class="carousel-caption d-none d-md-block">
+          
+          <h4 class="text-body-emphasis display-5">"Where flowers bloom, so does hope." </h4>
+          <h5 class="text-secondary-emphasis display-6">Lady Bird Johnson</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.unsplash.com/photo-1553779983-1b1f73f50faa?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="flower2">
+        <div class="carousel-caption d-none d-md-block">
+          
+          <h4 class="text-body-emphasis display-5">"The earth laughs in flowers."</h4>
+          <h5 class="text-secondary-emphasis display-6">Edwin Curran</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://img.freepik.com/free-photo/two-beautiful-bouquets-flowers-grey-surface_114579-39428.jpg?ga=GA1.1.1390416424.1730995837&semt=ais_hybrid" class="d-block w-100" alt="flower3">
+        <div class="carousel-caption d-none d-md-block">
+          
+          <h4 class="text-body-emphasis display-5">"Every flower is a soul blossoming in nature." </h4>
+          <h5 class="text-secondary-emphasis display-6"> Gérard de Nerval</h5>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- body part -->
+
+  <div class="container-fluid p-3">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h3 class="anitha display-6" >BEST SELLERS</h3>
+      </div>
+    </div>
+    <!-- 1st row column -->
+    <div class="row ">
+      <div class="container-fluid d-flex flex-wrap  justify-content-around">
+      <div class="col-12 col-md-6 col-lg-3 text-center mb-4">
+        <img src="https://theflowercompany.in/cdn/shop/products/Wild-Mix_700x.jpg?v=1571737876"   class=" img-fluid rounded img-thumbnail responsive-img moni "  style="width:280px;height:250px;" alt="flower" >
+        <p style="font-family:monospace;" class="text-center">Wild Mix - Classic Cubo</p>
+        <p  class="text-center"><span> <button type="button" class="btn btn-outline-dark ">View Details</button></span></p>
+        
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 text-center mb-4 ">
+        <img src="https://theflowercompany.in/cdn/shop/products/Valentino-Bunch_600x.jpg?v=1674809111" class="img-fluid rounded img-thumbnail  moni" style="width:280px;height:250px;" alt="flower">
+        <p style="font-family:monospace;" class="text-center">Valentino - Bunch</p>
+        <p  class="text-center"><span> <button type="button" class="btn btn-outline-dark ">View Details</button></span></p>
+        
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 text-center mb-4">
+        <img src="https://theflowercompany.in/cdn/shop/products/Classic-Mix_1b544a23-fc66-445c-a0ad-fc08230c57cb_400x.jpg?v=1571737876"  class="img-fluid rounded img-thumbnail  moni"  style="width:270px;height:250px;" alt="flower">
+        <p style="font-family:monospace;" class="text-center">Classic Mix - Classic Cubo</p>
+        <p  class="text-center"><span> <button type="button" class="btn btn-outline-dark ">View Details</button></span></p>
+        
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 text-center mb-4">
+        <img src="https://theflowercompany.in/cdn/shop/products/Lilies_400x.jpg?v=1571737875"  class="img-fluid rounded  img-thumbnail  moni"   style="width:280px;height:250px;" alt="flower">
+        <p style="font-family:monospace;" class="text-center">Lilies – Classic Cubo</p>
+        <p  class="text-center"><span> <button type="button" class="btn btn-outline-dark ">View Details</button></span></p>
+        
+      </div>
+    </div>
+</div>
+    <!-- 2nd row column -->
+
+    <div class="row ">
+      <div class="container-fluid d-flex flex-wrap justify-content-around">
+      <div class="col-12 col-md-6 col-lg-3 text-center mb-4">
+        <img src="https://theflowercompany.in/cdn/shop/products/Wild-Mix_dfa76d31-59fe-4267-b378-89759c9d3dc4_400x.jpg?v=1571737876"   class=" img-fluid rounded img-thumbnail moni"  style="width:280px;height:250px;" alt="flower" >
+        <p style="font-family:monospace;" class="text-center">Wild Mix - Classic Cubo</p>
+        <p  class="text-center"><span> <button type="button" class="btn btn-outline-dark ">View Details</button></span></p>
+        
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 text-center mb-4">
+        <img src="https://theflowercompany.in/cdn/shop/products/Lilies_6f74c55a-326f-4744-8d1d-b5303b8df5ca_400x.jpg?v=1571737875" class="img-fluid rounded img-thumbnail moni" style="width:280px;height:250px;" alt="flower">
+        <p style="font-family:monospace;" class="text-center">Wild Mix - Classic Cubo</p>
+        <p  class="text-center"><span> <button type="button" class="btn btn-outline-dark ">View Details</button></span></p>
+        
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 text-center mb-4">
+        <img src="https://theflowercompany.in/cdn/shop/products/Lollipop-Wild-Mix_400x.jpg?v=1571737875"  class="img-fluid rounded img-thumbnail moni"  style="width:270px;height:250px;" alt="flower">
+        <p style="font-family:monospace;" class="text-center">Lollipop Wild Mix</p>
+        <p  class="text-center"><span> <button type="button" class="btn btn-outline-dark ">View Details</button></span></p>
+        
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 text-center mb-4">
+        <img src="https://theflowercompany.in/cdn/shop/products/Webp.net-resizeimage_17_400x.jpg?v=1612947114"  class="img-fluid rounded  img-thumbnail moni"   style="width:280px;height:250px;" alt="flower">
+        <p style="font-family:monospace;" class="text-center">Ronde with Heart</p>
+        <p  class="text-center"><span> <button type="button" class="btn btn-outline-dark ">View Details</button></span></p>
+        
+      </div>
+    </div>
+</div>
+        
+    
+  </div>
+
+
+  <!-- container -->
+   <div class="container p-2 ">
+    
+    <div class="col-12 text-center image-overlay">
+      <img src="https://images.stockcake.com/public/7/6/e/76e84d51-a8d6-4726-9868-81cb906376db_large/tulips-and-letter-stockcake.jpg" class="img-fluid " style="width:90%;height:50%;" alt="image">
+      <div class="overlay-text">
+        <p class="d-none d-md-block">"What I find most inspiring is how flowers bloom despite the challenges of their environment—reaching for sunlight, braving winds, and thriving in rain. They teach us resilience and grace, reminding us to find beauty in every moment, no matter how fleeting."</p>
+
+      </div>
+    
+    </div>
+   </div>
+
+  <!-- add on -->
+   <!-- body part -->
+
+  <div class="container-fluid p-3">
+    <div class="row">
+      <div class="col-12 ">
+        <h3 class="anitha display-6 d-flex p-2 justify-content-center" >ADD ON</h3>
+      </div>
+    </div>
+    <!-- 1st row column -->
+    <div class="row ">
+      <div class="container-fluid d-flex flex-wrap  justify-content-around">
+      <div class=" col-md-6 col-lg-3 text-center mb-4">
+        <img src="https://theflowercompany.in/cdn/shop/products/Wild-Mix_700x.jpg?v=1571737876"   class=" img-fluid rounded img-thumbnail moni"  style="width:280px;height:250px;" alt="flower" >
+        <p style="font-family:monospace;" class="text-center">Wild Mix - Classic Cubo</p>
+        <p  class="text-center"><span> <button type="button" class="btn btn-outline-dark ">View Details</button></span></p>
+        
+      </div>
+      <div class=" col-md-6 col-lg-3 text-center mb-4">
+        <img src="https://theflowercompany.in/cdn/shop/products/Valentino-Bunch_600x.jpg?v=1674809111" class="img-fluid rounded img-thumbnail moni" style="width:280px;height:250px;" alt="flower">
+        <p style="font-family:monospace;" class="text-center">Valentino - Bunch</p>
+        <p  class="text-center"><span> <button type="button" class="btn btn-outline-dark ">View Details</button></span></p>
+        
+      </div>
+      <div class=" col-md-6 col-lg-3 text-center mb-4">
+        <img src="https://theflowercompany.in/cdn/shop/products/Classic-Mix_1b544a23-fc66-445c-a0ad-fc08230c57cb_400x.jpg?v=1571737876 moni"  class="img-fluid rounded img-thumbnail moni"  style="width:270px;height:250px;" alt="flower">
+        <p style="font-family:monospace;" class="text-center">Classic Mix - Classic Cubo</p>
+        <p  class="text-center"><span> <button type="button" class="btn btn-outline-dark ">View Details</button></span></p>
+        
+      </div>
+      <div class=" col-md-6 col-lg-3 text-center mb-4">
+        <img src="https://theflowercompany.in/cdn/shop/products/Lilies_400x.jpg?v=1571737875"  class="img-fluid rounded  img-thumbnail moni"   style="width:280px;height:250px;" alt="flower">
+        <p style="font-family:monospace;" class="text-center">Lilies – Classic Cubo</p>
+        <p  class="text-center"><span> <button type="button" class="btn btn-outline-dark ">View Details</button></span></p>
+        
+      </div>
+    </div>
+</div>
+    <!-- 2nd row column -->
+
+    <div class="row ">
+      <div class="container-fluid d-flex flex-wrap justify-content-around">
+      <div class="col-12 col-md-6 col-lg-3 text-center mb-4">
+        <img src="https://theflowercompany.in/cdn/shop/products/Wild-Mix_dfa76d31-59fe-4267-b378-89759c9d3dc4_400x.jpg?v=1571737876"   class=" img-fluid rounded img-thumbnail moni"  style="width:280px;height:250px;" alt="flower" >
+        <p style="font-family:monospace;" class="text-center">Wild Mix - Classic Cubo</p>
+        <p  class="text-center"><span> <button type="button" class="btn btn-outline-dark ">View Details</button></span></p>
+        
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 text-center mb-4">
+        <img src="https://theflowercompany.in/cdn/shop/products/Lilies_6f74c55a-326f-4744-8d1d-b5303b8df5ca_400x.jpg?v=1571737875" class="img-fluid rounded img-thumbnail moni" style="width:280px;height:250px;" alt="flower">
+        <p style="font-family:monospace;" class="text-center">Wild Mix - Classic Cubo</p>
+        <p  class="text-center"><span> <button type="button" class="btn btn-outline-dark ">View Details</button></span></p>
+        
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 text-center mb-4">
+        <img src="https://theflowercompany.in/cdn/shop/products/Lollipop-Wild-Mix_400x.jpg?v=1571737875"  class="img-fluid rounded img-thumbnail moni"  style="width:270px;height:250px;" alt="flower">
+        <p style="font-family:monospace;" class="text-center">Lollipop Wild Mix</p>
+        <p  class="text-center"><span> <button type="button" class="btn btn-outline-dark ">View Details</button></span></p>
+        
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 text-center mb-4">
+        <img src="https://theflowercompany.in/cdn/shop/products/Webp.net-resizeimage_17_400x.jpg?v=1612947114"  class="img-fluid rounded  img-thumbnail moni"   style="width:280px;height:250px;" alt="flower">
+        <p style="font-family:monospace;" class="text-center">Ronde with Heart</p>
+        <p  class="text-center"><span> <button type="button" class="btn btn-outline-dark ">View Details</button></span></p>
+        
+      </div>
+    </div>
+</div>
+        
+    
+  </div>
+
+  <!-- footer part -->
+  <footer style="background-color: pink;color:black " >
+    <div class="container p-4" >
+      <div class="row">
+        <div class="col-6 col-md-4">
+            <h5 ><ins>RESOURCES</ins></h5>
+            <p>Blog</p>
+            <p>Terms of Service</p>
+            <p>Refund Policy</p>
+            <p>Privacy Policy</p>
+            <p>shipping Details</p>
+            <p>Contact us</p>
+
+        </div>
+        <div class="col-6 col-md-4">
+          <h5><ins>VISIT US IN STORE</ins></h5>
+          <p>111 Thompson Street</p>
+          <p>New York,Ny 10012</p>
+          <p>(347),573-1728</p>
+          <p>Mon-Sun:9am-6pm</p>  
+        </div>
+        <div class="col-12 col-md-4 md-text-center">
+          <h5><ins>CONECT WITH US</ins></h5>
+          <p>Explore our Social Media Channels to Read About Our Latest Insights.</p>
+          <p><span><i class="fa-brands fa-facebook"></i></span>                 <span><i class="fa-brands fa-twitter"></i></span>                 <span><i class="fa-brands fa-instagram"></i></span></p>
+        </div><hr>
+        <div class="col-12 text-center">
+               <p>Copyrights@2024 All Rights are Received at Bloom'n Bazaar</p>
+        </div>
+      </div>
+    </div>
+   </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+        
+    </body>
+    </html>
